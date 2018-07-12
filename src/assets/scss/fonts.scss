@@ -1,0 +1,25 @@
+$serif: 'PT Serif', 'Times', 'Times New Roman', serif;
+$sans: 'PT Sans', 'Roboto', sans-serif;
+
+.serif {
+  font-family: $serif;
+}
+
+p,
+a,
+span,
+li {
+  font-family: $sans;
+}
+
+.sans {
+  font-family: $sans;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
