@@ -1,6 +1,6 @@
-# Handlebars express boilerplate
+# Riplo
 
-Boilerplate code for developing websites in handlebars with an express API and SCSS for styling.
+A driven group of student developers.
 
 --------
 

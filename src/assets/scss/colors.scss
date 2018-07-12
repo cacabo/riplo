@@ -1,3 +1,15 @@
 $red: #ff4c7c;
 $blue: #5065ff;
+
+// Neutrals
+$dark-gray: #bbb;
 $gray: #eee;
+$light-gray: #efefef;
+
+.gray {
+  background: $gray;
+}
+
+.light-gray {
+  background: $light-gray;
+}
