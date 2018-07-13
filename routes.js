@@ -11,12 +11,12 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 // Constants used for setting meta tags
 const defaultProps = {
-  title: 'TODO',
-  description: 'TODO',
-  keywords: 'TODO',
-  image: 'TODO',
-  siteName: 'TODO',
-  url: 'TODO'
+  title: 'Riplo',
+  description: 'Driven group of student developers',
+  keywords: 'Riplo,cameron,cabo,adam,ripley,penn,upenn,freelance,dev,developer,react,node,express,app,apps,application,css,html,ruby,native,handlebars,hbs,js,jsx,javascript',
+  image: '/img/bg.png',
+  siteName: 'Riplo',
+  url: 'riplo.co'
 };
 
 // Helper function to set default props
