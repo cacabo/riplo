@@ -2,6 +2,9 @@
 const express = require('express');
 const router = express.Router();
 
+// Import JSON
+const projects = require('./src/json/projects.json');
+
 // Constants used for setting meta tags
 const defaultProps = {
   title: 'TODO',
@@ -30,7 +33,9 @@ const renderNotFound = (res) => {
 
 // Homepage
 router.get('/', (req, res) => {
-  res.render('home', renderProps({}));
+  res.render('home', renderProps({
+    projects,
+  }));
 });
 
 // Handle 404 error

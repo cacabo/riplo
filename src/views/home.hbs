@@ -53,7 +53,7 @@
 
 <section class="light-gray" id="technologies">
   <div class="container">
-    <h2 class="serif bold center">Technologies</h2>
+    <h2 class="serif bold center marg-bot-1">Technologies</h2>
 
     <div class="lists">
       <div class="list">
@@ -90,6 +90,12 @@
 
 <section>
   <div class="container">
-    <h2 class="serif bold">Check out our past work</h2>
+    <h2 class="serif bold marg-bot-1">
+      Check out our past work
+    </h2>
+
+    {{#each projects}}
+      {{> project this }}
+    {{/each}}
   </div>
 </section>
