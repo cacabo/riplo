@@ -94,6 +94,47 @@ $border-width: 3px;
   }
 }
 
+// Change technologies to one-per-line
+@media screen and (max-width: $phone) {
+  #technologies {
+    overflow: hidden;
+
+    .lines {
+      background-image: linear-gradient(90deg, $light-gray 70%,transparent 70%),linear-gradient($transparent-red 15%, $light-gray 15%);
+      background-size: 20px 20px;
+      position: absolute;
+      z-index: 0;
+
+      &.right {
+        height: 10rem;
+        right: 0;
+        width: 40%;
+      }
+
+      &.left {
+        height: 6rem;
+        transform: translateY(-5rem);
+        left: 0;
+        width: 50%;
+      }
+    }
+
+    .container {
+      z-index: 1;
+      position: relative;
+    }
+
+    .lists {
+      display: block;
+
+      .list {
+        border-right: 0px solid transparent;
+      }
+    }
+  }
+}
+
+// Add breathing room between people and about section
 @media screen and (max-width: $tablet) {
   #about h2 {
     margin-top: 1rem;
