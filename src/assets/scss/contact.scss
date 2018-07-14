@@ -46,3 +46,23 @@
     }
   }
 }
+
+::placeholder {
+  color: $dark-gray;
+}
+
+::-webkit-input-placeholder {
+  color: $dark-gray;
+}
+
+::-moz-placeholder {
+  color: $dark-gray;
+}
+
+:-ms-input-placeholder {
+  color: $dark-gray;
+}
+
+:-moz-placeholder {
+  color: $dark-gray;
+}

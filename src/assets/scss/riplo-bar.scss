@@ -4,6 +4,7 @@
   position: absolute;
   left: calc(50% - 2rem);
   transform: translateY(-0.25rem);
+  z-index: 2;
 
   &.red {
     background: $red;
