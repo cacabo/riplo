@@ -4,6 +4,12 @@
   margin-bottom: calc(1rem + 1.25%);
   overflow: hidden;
 
+  .img-wrapper {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+
   img {
     border-right: 1px solid $shade;
     border-left: 1px solid $shade;
