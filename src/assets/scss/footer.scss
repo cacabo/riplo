@@ -1,6 +1,36 @@
+$height: 1.5rem;
+
 footer {
   padding: 1rem 0rem;
   border-top: 1px solid $gray;
   color: $dark-gray;
   font-size: 0.8rem;
+
+  .logo {
+    height: $height;
+    width: auto;
+    // filter: grayscale(60%);
+    // opacity: 0.4;
+  }
+
+  .legal {
+    margin-bottom: 0;
+    height: $height;
+    line-height: $height;
+    float: right;
+  }
+}
+
+@media screen and (max-width: $phone) {
+  footer {
+    .logo {
+      margin-bottom: 1rem;
+    }
+
+    .legal {
+      float: none;
+      height: auto;
+      line-height: normal;
+    }
+  }
 }

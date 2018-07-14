@@ -1,0 +1,42 @@
+$tablet: 992px;
+$phone: 584px;
+
+.marg-bot-1 {
+  margin-bottom: 1rem !important;
+}
+
+.space-1 {
+  display: block;
+  height: 1rem;
+  width: 100%;
+}
+
+section {
+  padding: calc(1.25% + 0.5rem) 0rem;
+}
+
+@media screen and (max-width: $phone) {
+  section {
+    padding: calc(2.5% + 1rem) 0rem;
+  }
+}
+
+// Banners with background images and white text
+// NOTE be sure to set the background image
+.banner {
+  color: white;
+  padding: 5% 0rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .banner p {
+    font-size: 1.25rem;
+  }
+}

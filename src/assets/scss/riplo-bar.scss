@@ -1,0 +1,15 @@
+.riplo-bar {
+  width: 4rem;
+  height: 0.5rem;
+  position: absolute;
+  left: calc(50% - 2rem);
+  transform: translateY(-0.25rem);
+
+  &.red {
+    background: $red;
+  }
+
+  &.blue {
+    background: $blue;
+  }
+}
