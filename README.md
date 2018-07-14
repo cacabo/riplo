@@ -36,3 +36,12 @@ A driven group of student developers.
 ├─ ...                  # Yarn config files
 └─ README.md            # Documentation
 ```
+
+--------
+
+### Tasks
+
+- [ ] Mobile responsive nav
+- [ ] Mobile responsive body
+- [ ] Favicon
+- [ ] Smarter titles

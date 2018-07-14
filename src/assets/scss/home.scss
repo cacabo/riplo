@@ -1,5 +1,4 @@
-#hero {
-  background-image: url('/img/computer.jpg');
+.banner {
   color: white;
   padding: 5% 0rem;
   background-position: center;
@@ -9,6 +8,14 @@
   p {
     font-size: 1.5rem;
   }
+}
+
+#hero {
+  background-image: url('/img/computer.jpg');
+}
+
+#call-to-action {
+  background-image: url('/img/philly.jpg');
 }
 
 $border-width: 3px;
@@ -33,6 +40,10 @@ $border-width: 3px;
     background-repeat: no-repeat;
     background-size: cover;
     border: $border-width solid white;
+
+    &#prateek {
+      background-image: url('/img/people/prateek.jpeg');
+    }
 
     &#cam {
       background-image: url('/img/people/cam.jpeg');
@@ -116,11 +127,7 @@ section {
 }
 
 #contact {
-  // background-image: url('/img/philly.jpg');
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-
+  margin-top: -5%;
   min-height: 540px;
 
   .content {
