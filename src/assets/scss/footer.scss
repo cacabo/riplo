@@ -17,6 +17,10 @@ footer {
     line-height: $height;
     float: right;
   }
+
+  .to-top {
+    display: none;
+  }
 }
 
 @media screen and (max-width: $phone) {
@@ -29,6 +33,12 @@ footer {
       float: none;
       height: auto;
       line-height: normal;
+      margin-bottom: 0.5rem;
+    }
+
+    .to-top {
+      display: block;
+      color: $dark-gray !important;
     }
   }
 }
