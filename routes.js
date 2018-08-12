@@ -16,7 +16,7 @@ const defaultProps = {
   keywords: 'Riplo,cameron,cabo,adam,ripley,penn,upenn,freelance,dev,developer,react,node,express,app,apps,application,css,html,ruby,native,handlebars,hbs,js,jsx,javascript',
   image: '/img/bg.png',
   siteName: 'Riplo',
-  url: 'riplo.co'
+  url: 'riplo.io'
 };
 
 // Helper function to set default props
